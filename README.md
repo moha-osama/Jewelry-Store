@@ -15,4 +15,4 @@ Responsive online jewelry store built in reactJs, The goal of this project was t
       Shopping cart with the ability to add, edit, and remove items<br/>
       User authentication with Firebase authentication<br/>
 
-<h1>Demo👇</h1> [https://forecast-demo-app.netlify.app/](http://jewelry-store-demo-app.netlify.app)
+<h1>Demo👇</h1> https://forecast-demo-app.netlify.app/
