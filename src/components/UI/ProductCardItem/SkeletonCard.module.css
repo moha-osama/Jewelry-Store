@@ -1,0 +1,19 @@
+.skeleton-card {
+  background-color: white;
+  width: 22rem;
+  height: 28rem;
+  border-radius: 14px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+}

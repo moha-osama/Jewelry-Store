@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+}
+
+.aside {
+  width: 20rem;
+  background-color: white;
+}
+
+.aside h1 {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid black;
+}
+
+.aside-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  transition: 0.3s;
+}
+
+.main {
+  width: 80%;
+  padding: 0 2rem;
+}
+
+.main-container ul {
+  list-style: none;
+  width: 70rem;
+  margin: 2rem auto;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .main-container ul {
+    width: 50rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-container ul {
+    width: 25rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*Responsive Aside*/
+
+#check {
+  display: none;
+}
+.check-btn {
+  font-size: 2rem;
+  display: none;
+  position: absolute;
+  z-index: 3;
+}
+
+@media (max-width: 580px) {
+  .aside {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    left: -100%;
+  }
+  .main {
+    width: 100%;
+    padding: 0;
+  }
+  .main-container ul {
+    max-width: fit-content;
+  }
+  .check-btn {
+    display: block;
+  }
+
+  #check:checked ~ .aside {
+    left: 0;
+  }
+  #check:checked ~ .check-btn {
+    rotate: -180deg;
+    right: 1rem;
+  }
+}
