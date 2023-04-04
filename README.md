@@ -1,7 +1,7 @@
 # Jewelry-Store
 Responsive online jewelry store built in reactJs, The goal of this project was to create an easy-to-use and visually appealing e-commerce website for buying jewelry.
 
-![Screenshot 2023-04-04 224644](https://user-images.githubusercontent.com/68459758/229921951-661be980-c49e-4fb4-a6b3-24ee9b314f3f.png)![WhatsApp Image 2023-04-04 at 23 10 08](https://user-images.githubusercontent.com/68459758/229923189-9cc53db4-f6ef-4846-ae9d-34b0851ef5b4.jpg)
+![Screenshot 2023-04-04 224644](https://user-images.githubusercontent.com/68459758/229921951-661be980-c49e-4fb4-a6b3-24ee9b314f3f.png)![WhatsApp Image 2023-04-04 at 23 10 08](https://user-images.githubusercontent.com/68459758/229923189-9cc53db4-f6ef-4846-ae9d-34b0851ef5b4.jpg | width=100)
 
 
 
