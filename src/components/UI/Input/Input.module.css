@@ -1,0 +1,31 @@
+.input label {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+
+.input input {
+  width: 28rem;
+  height: 3rem;
+  padding-left: 1rem;
+  font-size: 18px;
+  margin: 0;
+}
+
+.input label > span {
+  transition: all 0.2s;
+  transform-origin: top left;
+  width: fit-content;
+}
+.input label > input[placeholder=" "]:not(:focus):placeholder-shown + span {
+  transform: translateY(2em) translateX(1em) scale(1.25);
+  pointer-events: none;
+  opacity: 0.5;
+  width: fit-content;
+}
+
+@media (max-width: 480px) {
+  .input input {
+    width: 24rem;
+  }
+}

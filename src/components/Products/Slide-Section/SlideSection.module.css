@@ -1,0 +1,51 @@
+.slide-section {
+  max-width: 70rem;
+  margin: 4rem auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.header p {
+  cursor: pointer;
+}
+
+.header h1 {
+  font-size: 42px;
+  font-family: CutoffPro;
+}
+
+.slide-section nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide-section ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+@media (max-width: 1200px) {
+  .slide-section {
+    max-width: 50rem;
+  }
+}
+
+@media (max-width: 865px) {
+  .slide-section {
+    scale: 0.9;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .slide-section {
+    max-width: 37rem;
+  }
+}

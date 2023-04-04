@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  text-align: center;
+  display: inline-block;
+  width: 8rem;
+  padding: 1rem;
+}
+
+.isActive {
+  background-color: rgb(221, 221, 221);
+  border-bottom: 4px solid black;
+}
+
+.contianer {
+  max-width: 80rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.actions button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2rem;
+  width: 20rem;
+  height: 3rem;
+  font-size: 18px;
+}
+
+.actions button:hover {
+  cursor: pointer;
+  background-color: rgb(34, 34, 34);
+}
+
+.actions button:disabled {
+  background-color: red;
+}
+
+@media (max-width: 480px) {
+  .contianer {
+    scale: 0.8;
+  }
+}

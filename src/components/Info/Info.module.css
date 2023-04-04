@@ -1,0 +1,33 @@
+.info nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 10em;
+}
+
+.info ul {
+  width: 70rem;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info li p {
+  font-size: clamp(24px, 5vw, 40px);
+  font-weight: bold;
+  margin: 0;
+}
+
+.info li h6 {
+  color: #a8a8a7;
+  font-size: clamp(12px, 2vw, 24px);
+  font-weight: 400;
+}

@@ -1,0 +1,98 @@
+.collection-page {
+  padding-top: 2rem;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary p {
+  color: #a8a8a7;
+}
+
+.summary h1 {
+  font-family: CutoffPro;
+  font-size: 40px;
+  margin: 0;
+}
+
+.collection {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.item {
+  border-radius: 14px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.item_1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.item_2 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.item_3 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.item_4 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.item_1 {
+  height: 41rem;
+}
+.item_2,
+.item_3,
+.item_4 {
+  height: 20rem;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  transition: 0.3s;
+}
+
+.item_4 {
+  background-color: black;
+  position: relative;
+}
+.item_4 img {
+  opacity: 0.3;
+}
+
+.overlay {
+  position: absolute;
+  top: 42%;
+  right: 0;
+  left: 0;
+}
+
+.overlay h1 {
+  color: white;
+  font-weight: 300;
+}
+
+.item:hover img {
+  cursor: pointer;
+  scale: 1.1;
+}

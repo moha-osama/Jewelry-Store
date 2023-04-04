@@ -1,0 +1,38 @@
+.button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.button:hover,
+.button:active {
+  cursor: pointer;
+}
+
+.whiteBtn {
+  color: black;
+  background-color: white;
+}
+
+.whiteBtn:hover {
+  cursor: pointer;
+  background-color: #f0eee4;
+}
+
+.blackBtn {
+  color: white;
+  background-color: black;
+}
+
+.blackBtn:hover {
+  color: white;
+  background-color: rgb(49, 49, 49);
+}
+
+@media (max-width: 540px) {
+  .button {
+    font-size: 16px;
+  }
+}

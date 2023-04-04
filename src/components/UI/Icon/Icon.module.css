@@ -1,0 +1,43 @@
+.icon {
+  position: fixed;
+  bottom: 4rem;
+  float: right;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 999rem;
+  background-color: gray;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.contianer {
+  height: 100%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  right: -8rem;
+}
+
+.shown {
+  right: 5rem;
+}
+
+.icon:hover,
+.icon:active {
+  cursor: pointer;
+  background-color: rgb(61, 61, 61);
+}
+
+@media (max-width: 480px) {
+  .icon {
+    width: 4rem;
+    height: 4rem;
+    bottom: 2rem;
+    right: 2rem;
+  }
+}

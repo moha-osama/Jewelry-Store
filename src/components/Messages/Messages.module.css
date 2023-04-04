@@ -1,0 +1,36 @@
+.message-card {
+  height: 100vh;
+  margin-top: 6rem;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: CutoffPro;
+  font-size: 42px;
+  margin: 0;
+}
+
+.messages {
+  display: flex;
+  gap: 1.5rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 770px) {
+  .messages {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
